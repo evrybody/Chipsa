@@ -1,0 +1,26 @@
+.opacity {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%);
+  opacity: 1;
+  transition: all 3s ease-in-out;
+}
+
+.transparency {
+  position: fixed;
+  width: 20dvw;
+  left: 10%;
+  font-size: 20px;
+  font-weight: 600;
+  opacity: 1;
+  transition: all 3s ease-in-out;
+}
+
+.centerImg {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+}
